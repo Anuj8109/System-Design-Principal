@@ -1,7 +1,7 @@
-package SystemDesign.Adapter.Adapters;
+package Adapter.Adapters;
 
-import SystemDesign.Adapter.Round.RoundPeg;
-import SystemDesign.Adapter.Square.SquarePeg;
+import Adapter.Round.RoundPeg;
+import Adapter.Square.SquarePeg;
 
 public class SquarePegAdapter extends RoundPeg{
     SquarePeg peg;

@@ -1,4 +1,4 @@
-package SystemDesign.Strategy.strategies;
+package Strategy.strategies;
 
 public class CreditCard {
     private int amount;

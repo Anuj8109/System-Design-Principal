@@ -1,9 +1,9 @@
-package SystemDesign.Composite;
+package  Composite;
 
-import SystemDesign.Composite.editor.ImageEditor;
+import  Composite.editor.ImageEditor;
 
 import java.awt.Color;
-import SystemDesign.Composite.Shapes.Circle;
+import  Composite.Shapes.Circle;
 
 public class Demo {
     public static void main(String[] args) {

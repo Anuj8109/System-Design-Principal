@@ -1,4 +1,4 @@
-package SystemDesign.Template.network;
+package Template.network;
 
 public abstract class Network {
     String username;

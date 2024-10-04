@@ -1,4 +1,4 @@
-package SystemDesign.Iterator.profile;
+package Iterator.profile;
 
 import java.util.ArrayList;
 import java.util.HashMap;

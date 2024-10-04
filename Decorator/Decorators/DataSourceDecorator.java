@@ -1,4 +1,4 @@
-package SystemDesign.Decorator.Decorators;
+package Decorator.Decorators;
 
 public abstract class DataSourceDecorator implements DataSource{
     public DataSource wrappee;

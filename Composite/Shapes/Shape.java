@@ -1,4 +1,4 @@
-package SystemDesign.Composite.Shapes;
+package Composite.Shapes;
 import java.awt.*;
 
 public interface Shape {

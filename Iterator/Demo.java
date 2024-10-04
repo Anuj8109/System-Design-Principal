@@ -1,14 +1,14 @@
-package SystemDesign.Iterator;
+package Iterator;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import SystemDesign.Iterator.SocialNetworks.Facebook;
-import SystemDesign.Iterator.SocialNetworks.Linkedin;
-import SystemDesign.Iterator.SocialNetworks.SocialNetwork;
-import SystemDesign.Iterator.profile.Profile;
-import SystemDesign.Iterator.spammer.SocialSpammer;
+import Iterator.SocialNetworks.Facebook;
+import Iterator.SocialNetworks.Linkedin;
+import Iterator.SocialNetworks.SocialNetwork;
+import Iterator.profile.Profile;
+import Iterator.spammer.SocialSpammer;
 
 public class Demo {
     public static Scanner scanner = new Scanner(System.in);

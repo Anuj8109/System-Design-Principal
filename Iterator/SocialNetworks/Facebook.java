@@ -1,11 +1,11 @@
-package SystemDesign.Iterator.SocialNetworks;
+package Iterator.SocialNetworks;
 
 import java.util.List;
 import java.util.ArrayList;
 
-import SystemDesign.Iterator.iterators.FacbookIterator;
-import SystemDesign.Iterator.iterators.ProfileIterator;
-import SystemDesign.Iterator.profile.Profile;;
+import Iterator.iterators.FacbookIterator;
+import Iterator.iterators.ProfileIterator;
+import Iterator.profile.Profile;;
 
 public class Facebook implements SocialNetwork{
     private List<Profile> profiles;

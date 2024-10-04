@@ -1,4 +1,4 @@
-package SystemDesign.Prototype.Shapes;
+package Prototype.Shapes;
 
 public abstract class Shape {
     public int x;

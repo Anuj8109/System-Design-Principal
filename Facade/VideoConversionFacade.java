@@ -1,14 +1,14 @@
-package SystemDesign.Facade;
+package Facade;
 
 import java.io.File;
 
-import SystemDesign.Facade.complex_media_library.AudioMixer;
-import SystemDesign.Facade.complex_media_library.BitrateReader;
-import SystemDesign.Facade.complex_media_library.Codec;
-import SystemDesign.Facade.complex_media_library.CodecFactory;
-import SystemDesign.Facade.complex_media_library.MPEG4CompressionCodec;
-import SystemDesign.Facade.complex_media_library.OggCompressionCodec;
-import SystemDesign.Facade.complex_media_library.VideoFile;
+import Facade.complex_media_library.AudioMixer;
+import Facade.complex_media_library.BitrateReader;
+import Facade.complex_media_library.Codec;
+import Facade.complex_media_library.CodecFactory;
+import Facade.complex_media_library.MPEG4CompressionCodec;
+import Facade.complex_media_library.OggCompressionCodec;
+import Facade.complex_media_library.VideoFile;
 
 public class VideoConversionFacade {
     

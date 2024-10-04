@@ -1,6 +1,6 @@
-package SystemDesign.Strategy.order;
+package Strategy.order;
 
-import SystemDesign.Strategy.strategies.PayStrategy;
+import Strategy.strategies.PayStrategy;
 
 public class Order {
     private int totalCost = 0;

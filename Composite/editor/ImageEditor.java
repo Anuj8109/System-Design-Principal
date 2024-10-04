@@ -1,10 +1,10 @@
-package SystemDesign.Composite.editor;
+package Composite.editor;
 
 import javax.swing.*;
 import javax.swing.border.Border;
 
-import SystemDesign.Composite.Shapes.CompoundShape;
-import SystemDesign.Prototype.Shapes.Shape;
+import Composite.Shapes.CompoundShape;
+import Prototype.Shapes.Shape;
 
 import java.awt.*;
 import java.awt.event.MouseAdapter;
@@ -18,7 +18,7 @@ public class ImageEditor {
         canvas = new EditorCanvas();
     }
 
-    public void loadShapes(SystemDesign.Composite.Shapes.Shape... shapes) {
+    public void loadShapes(Composite.Shapes.Shape... shapes) {
         allShapes.clear();
         allShapes.add(shapes);
         canvas.refresh();

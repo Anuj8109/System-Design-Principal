@@ -1,4 +1,4 @@
-package SystemDesign.Decorator.Decorators;
+package Decorator.Decorators;
 
 public interface DataSource {
     

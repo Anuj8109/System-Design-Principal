@@ -1,6 +1,6 @@
-package SystemDesign.Iterator.iterators;
+package Iterator.iterators;
 
-import SystemDesign.Iterator.profile.Profile;
+import Iterator.profile.Profile;
 
 public interface ProfileIterator {
     boolean hasNext();

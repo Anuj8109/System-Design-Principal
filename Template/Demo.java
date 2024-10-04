@@ -1,12 +1,12 @@
-package SystemDesign.Template;
+package Template;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-import SystemDesign.Template.network.Facebook;
-import SystemDesign.Template.network.Network;
-import SystemDesign.Template.network.Twitter;
+import Template.network.Facebook;
+import Template.network.Network;
+import Template.network.Twitter;
 
 public class Demo {
     public static void main(String[] args) throws IOException{

@@ -1,6 +1,6 @@
-package SystemDesign.Iterator.SocialNetworks;
+package Iterator.SocialNetworks;
 
-import SystemDesign.Iterator.iterators.ProfileIterator;
+import Iterator.iterators.ProfileIterator;
 
 public interface SocialNetwork {
     ProfileIterator  createFriendsIterator(String profileEmial);

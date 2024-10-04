@@ -1,10 +1,10 @@
-package SystemDesign.Iterator.iterators;
+package Iterator.iterators;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import SystemDesign.Iterator.SocialNetworks.Linkedin;
-import SystemDesign.Iterator.profile.Profile;
+import Iterator.SocialNetworks.Linkedin;
+import Iterator.profile.Profile;
 
 public class LinkedInIterator implements ProfileIterator{
     private Linkedin linkedIn;

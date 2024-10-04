@@ -1,4 +1,4 @@
-package SystemDesign.Template.network;
+package Template.network;
 
 public class Facebook extends Network{
 

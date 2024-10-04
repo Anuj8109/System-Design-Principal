@@ -1,8 +1,8 @@
-package SystemDesign.Observer.edition;
+package Observer.edition;
 
 import java.io.File;
 
-import SystemDesign.Observer.publisher.*;
+import Observer.publisher.*;
 
 public class Editior {
     public EventManager events;

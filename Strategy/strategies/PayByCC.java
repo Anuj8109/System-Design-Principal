@@ -1,4 +1,4 @@
-package SystemDesign.Strategy.strategies;
+package Strategy.strategies;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

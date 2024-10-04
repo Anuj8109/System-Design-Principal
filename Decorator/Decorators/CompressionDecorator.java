@@ -1,4 +1,4 @@
-package SystemDesign.Decorator.Decorators;
+package Decorator.Decorators;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

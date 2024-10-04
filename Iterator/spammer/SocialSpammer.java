@@ -1,8 +1,8 @@
-package SystemDesign.Iterator.spammer;
+package Iterator.spammer;
 
-import SystemDesign.Iterator.SocialNetworks.SocialNetwork;
-import SystemDesign.Iterator.iterators.ProfileIterator;
-import SystemDesign.Iterator.profile.Profile;
+import Iterator.SocialNetworks.SocialNetwork;
+import Iterator.iterators.ProfileIterator;
+import Iterator.profile.Profile;
 
 public class SocialSpammer {
     public SocialNetwork network;

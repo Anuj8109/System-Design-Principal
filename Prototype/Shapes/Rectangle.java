@@ -1,4 +1,4 @@
-package SystemDesign.Prototype.Shapes;
+package Prototype.Shapes;
 
 public class Rectangle extends Shape{
 

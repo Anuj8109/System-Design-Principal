@@ -1,8 +1,8 @@
-package SystemDesign.Observer;
+package Observer;
 
-import SystemDesign.Observer.edition.Editior;
-import SystemDesign.Observer.listeners.EmailNotificationListener;
-import SystemDesign.Observer.listeners.LogOpenListener;
+import Observer.edition.Editior;
+import Observer.listeners.EmailNotificationListener;
+import Observer.listeners.LogOpenListener;
 
 public class Demo {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package SystemDesign.Decorator.Decorators;
+package Decorator.Decorators;
 
 import java.io.File;
 import java.io.FileOutputStream;

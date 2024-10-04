@@ -1,11 +1,11 @@
-package SystemDesign.Observer.publisher;
+package Observer.publisher;
 
 import java.util.List;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
-import SystemDesign.Observer.listeners.EventListener;
+import Observer.listeners.EventListener;
 
 public class EventManager {
     Map<String, List<EventListener>> listeners = new HashMap<>();

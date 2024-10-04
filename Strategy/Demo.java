@@ -1,4 +1,4 @@
-package SystemDesign.Strategy;
+package Strategy;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,10 +6,10 @@ import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Map;
 
-import SystemDesign.Strategy.order.Order;
-import SystemDesign.Strategy.strategies.PayByCC;
-import SystemDesign.Strategy.strategies.PayByPaypal;
-import SystemDesign.Strategy.strategies.PayStrategy;
+import Strategy.order.Order;
+import Strategy.strategies.PayByCC;
+import Strategy.strategies.PayByPaypal;
+import Strategy.strategies.PayStrategy;
 
 public class Demo {
     private static Map<Integer, Integer> priceOnProducts = new HashMap<>();

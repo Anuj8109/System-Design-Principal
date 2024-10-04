@@ -1,10 +1,10 @@
-package SystemDesign.Decorator;
+package Decorator;
 
-import SystemDesign.Decorator.Decorators.CompressionDecorator;
-import SystemDesign.Decorator.Decorators.DataSourceDecorator;
-import SystemDesign.Decorator.Decorators.EncryptionDecorator;
-import SystemDesign.Decorator.Decorators.FileDataSource;
-import SystemDesign.Decorator.Decorators.DataSource;;
+import Decorator.Decorators.CompressionDecorator;
+import Decorator.Decorators.DataSourceDecorator;
+import Decorator.Decorators.EncryptionDecorator;
+import Decorator.Decorators.FileDataSource;
+import Decorator.Decorators.DataSource;;
 
 public class Demo {
     public static void main(String[] args){

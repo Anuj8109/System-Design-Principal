@@ -1,11 +1,11 @@
-package SystemDesign.Prototype;
+package Prototype;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import SystemDesign.Prototype.Shapes.Circle;
-import SystemDesign.Prototype.Shapes.Rectangle;
-import SystemDesign.Prototype.Shapes.Shape;
+import Prototype.Shapes.Circle;
+import Prototype.Shapes.Rectangle;
+import Prototype.Shapes.Shape;
 
 public class Demo {
     public static void main(String[] args){

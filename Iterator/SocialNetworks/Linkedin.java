@@ -1,11 +1,11 @@
-package SystemDesign.Iterator.SocialNetworks;
+package Iterator.SocialNetworks;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import SystemDesign.Iterator.iterators.LinkedInIterator;
-import SystemDesign.Iterator.iterators.ProfileIterator;
-import SystemDesign.Iterator.profile.Profile;
+import Iterator.iterators.LinkedInIterator;
+import Iterator.iterators.ProfileIterator;
+import Iterator.profile.Profile;
 
 public class Linkedin implements SocialNetwork{
     private List<Profile> contacts;

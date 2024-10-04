@@ -1,10 +1,10 @@
-package SystemDesign.Iterator.iterators;
+package Iterator.iterators;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import SystemDesign.Iterator.SocialNetworks.Facebook;
-import SystemDesign.Iterator.profile.Profile;
+import Iterator.SocialNetworks.Facebook;
+import Iterator.profile.Profile;
 
 public class FacbookIterator implements ProfileIterator{
 
