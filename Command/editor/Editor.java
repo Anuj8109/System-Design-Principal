@@ -9,6 +9,7 @@ import java.awt.event.ActionListener;
 
 
 import Command.commands.CommandHistory;
+import Command.commands.CopyCommand;
 import Command.commands.CutCommand;
 import Command.commands.Command;
 import Command.commands.PasteCommand;
