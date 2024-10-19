@@ -4,6 +4,7 @@ import  Composite.editor.ImageEditor;
 
 import java.awt.Color;
 import  Composite.Shapes.Circle;
+import Composite.Shapes.*;
 
 public class Demo {
     public static void main(String[] args) {

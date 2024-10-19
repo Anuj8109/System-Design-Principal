@@ -4,7 +4,8 @@ import javax.swing.*;
 import javax.swing.border.Border;
 
 import Composite.Shapes.CompoundShape;
-import Prototype.Shapes.Shape;
+import Composite.Shapes.Shape;
+import Prototype.Shapes.*;
 
 import java.awt.*;
 import java.awt.event.MouseAdapter;
@@ -13,12 +14,12 @@ import java.awt.event.MouseEvent;
 public class ImageEditor {
     private EditorCanvas canvas;
     private CompoundShape allShapes = new CompoundShape();
+    public Object editor;
 
     public ImageEditor() {
         canvas = new EditorCanvas();
     }
-
-    public void loadShapes(Composite.Shapes.Shape... shapes) {
+    public void loadShapes(Shape... shapes) {
         allShapes.clear();
         allShapes.add(shapes);
         canvas.refresh();

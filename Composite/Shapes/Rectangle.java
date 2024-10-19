@@ -7,7 +7,7 @@ public class Rectangle extends BaseShape {
     public int width;
     public int height;
 
-    Rectangle(int x, int y, int width, int height, Color color) {
+    public Rectangle(int x, int y, int width, int height, Color color) {
         super(x, y, color);
         this.width = width;
         this.height = height;
