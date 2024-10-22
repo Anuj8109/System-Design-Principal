@@ -19,18 +19,4 @@ public class ParkingManagementSystem {
         }
         return parkingLot;
     }
-
-    public ParkingSpot parkCar(Vehicle vehicle){
-        ParkingLot currentLot = getInstance();
-        return parkingLot.parkingCarOnLevels(vehicle);
-    }
-
-    public void unParkCar(ParkingSpot spot){
-        getInstance().unParkCarOnLevels(spot);
-    }
-
-    public void addNewLevelInLot(ParkingLevel pl){
-        getInstance().addNewLevel(pl);
-    }
-
 }

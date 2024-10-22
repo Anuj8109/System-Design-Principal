@@ -40,7 +40,7 @@ public class ParkingLot {
                 return true;
             }
         }
-        System.out.println("Car is not parked in Lot of vehicle number " + parkingSpot.vehicle.vechicleNumber);
+        System.out.println((parkingSpot.vehicle == null ? "Vehicle number is incorrect" : "Car is not parked in Lot of vehicle number " + parkingSpot.vehicle.vechicleNumber) );
         return false;
     }
 }

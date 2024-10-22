@@ -27,7 +27,7 @@ public class ParkingSpot {
     }
 
     synchronized public boolean unParkCar(Vehicle vehicle){
-        if(currentStatus == Status.UNAVAILABLE && this.vehicle != null 
+        if(currentStatus == Status.UNAVAILABLE && this.vehicle != null && vehicle != null
             && vehicle.ownerName == this.vehicle.ownerName 
             && vehicle.vechicleNumber == this.vehicle.vechicleNumber){
                 currentStatus = Status.AVAILABLE;

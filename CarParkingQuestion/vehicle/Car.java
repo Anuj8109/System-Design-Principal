@@ -4,8 +4,8 @@ import CarParkingQuestion.VehicleType;
 
 public class Car extends Vehicle{
 
-    public Car(String vechicleNumber, VehicleType vehicleType, String ownerName) {
-        super(vechicleNumber, vehicleType, ownerName);
+    public Car(String vechicleNumber, String ownerName) {
+        super(vechicleNumber, VehicleType.CAR, ownerName);
     }
     
 }
