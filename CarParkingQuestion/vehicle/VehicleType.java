@@ -1,4 +1,4 @@
-package CarParkingQuestion;
+package CarParkingQuestion.vehicle;
 
 public enum VehicleType {
     BIKE,

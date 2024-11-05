@@ -5,14 +5,18 @@ import java.util.*;
 import CarParkingQuestion.vehicle.Vehicle;
 
 public class ParkingLot {
-    List<ParkingLevel> parkingLevels;
-
-    public ParkingLot(List<ParkingLevel> levels){
-        this.parkingLevels = parkingLevels;
-    }
+    private final List<ParkingLevel> parkingLevels;
+    private static ParkingLot instance;
 
     public ParkingLot(){
         parkingLevels = new ArrayList<>();
+    }
+
+    public static synchronized ParkingLot getInstance(){
+        if(instance == null){
+            instance = new ParkingLot();
+        }
+        return instance;
     }
 
     public void addNewLevel(ParkingLevel parkingLevel){

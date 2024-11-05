@@ -1,8 +1,8 @@
 package CarParkingQuestion.Parking;
 
 import CarParkingQuestion.Status;
-import CarParkingQuestion.VehicleType;
 import CarParkingQuestion.vehicle.Vehicle;
+import CarParkingQuestion.vehicle.VehicleType;
 
 public class ParkingSpot {
     public VehicleType spotType;

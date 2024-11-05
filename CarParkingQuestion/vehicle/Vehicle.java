@@ -1,7 +1,5 @@
 package CarParkingQuestion.vehicle;
 
-import CarParkingQuestion.VehicleType;
-
 public abstract class Vehicle {
     public String vechicleNumber;
     public VehicleType vehicleType;

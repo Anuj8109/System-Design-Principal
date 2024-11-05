@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import CarParkingQuestion.vehicle.Vehicle;
 
+///Not using this class
 public class ParkingManagementSystem {
     private static ParkingLot parkingLot;
 
