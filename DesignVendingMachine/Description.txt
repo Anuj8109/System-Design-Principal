@@ -1,0 +1,23 @@
+The vending machine should support multiple products with different prices and quantities. --- Handle order
+The machine should accept coins and notes of different denominations. -- Handle Money (accept money)
+The machine should dispense the selected product and return change if necessary. -- (Dispense order product and return left changes)
+The machine should keep track of the available products and their quantities. -- Handle Stock
+The machine should handle multiple transactions concurrently and ensure data consistency. --Singletone Design pattern
+The machine should provide an interface for restocking products and collecting money. --Restocking and collecting money
+The machine should handle exceptional scenarios, such as insufficient funds or out-of-stock products. --Handle out of stock and insufficient funds
+
+
+
+Produce -> id, name, price, description
+
+Currency -> final CurrencyType, final value
+
+Inventry -> Product Stock (List)
+
+Machine -> Inventry, Map<Currency,count>
+    method -> Order -> Collect money for order -> handle sufficient fund for order -> handle out of stock -> 
+    calculate current order value -> return left money.
+
+    AddNewProduct
+    RestockProduct
+    Collect Money for machine
